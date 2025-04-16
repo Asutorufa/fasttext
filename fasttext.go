@@ -1,6 +1,6 @@
 package fasttext
 
-// #cgo CXXFLAGS: -I${SRCDIR}/fasttext/include -I${SRCDIR} -std=c++17 -Ofast -fPIC -pthread -Wno-defaulted-function-deleted
+// #cgo CXXFLAGS: -I${SRCDIR}/fasttext/include -I${SRCDIR} -std=c++17 -O2 -ffast-math -fPIC -pthread -Wno-defaulted-function-deleted -Wno-nan-infinity-disabled
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <stdint.h>
